@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="selenium" duration-ms="41843" started-at="2019-09-03T01:26:34 MSK" finished-at="2019-09-03T01:27:16 MSK">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="41843" started-at="2019-09-03T01:26:34 MSK" finished-at="2019-09-03T01:27:16 MSK">
+      <class name="com.telesens.automationpractice.AuthTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="setUp" is-config="true" duration-ms="3431" started-at="2019-09-03T01:26:34 MSK" finished-at="2019-09-03T01:26:37 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAuthSuccess()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testAuthSuccess" duration-ms="10829" started-at="2019-09-03T01:26:37 MSK" finished-at="2019-09-03T01:26:48 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthSuccess -->
+        <test-method status="PASS" signature="testBlankLogin()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testBlankLogin" duration-ms="3637" started-at="2019-09-03T01:26:48 MSK" finished-at="2019-09-03T01:26:52 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankLogin -->
+        <test-method status="PASS" signature="testBlankPassword()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testBlankPassword" duration-ms="3839" started-at="2019-09-03T01:26:52 MSK" finished-at="2019-09-03T01:26:56 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankPassword -->
+        <test-method status="PASS" signature="testWrongLogin()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testWrongLogin" duration-ms="3716" started-at="2019-09-03T01:26:56 MSK" finished-at="2019-09-03T01:26:59 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongLogin -->
+        <test-method status="PASS" signature="testWrongPasswordAndLogin()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testWrongPasswordAndLogin" duration-ms="11485" started-at="2019-09-03T01:26:59 MSK" finished-at="2019-09-03T01:27:11 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPasswordAndLogin -->
+        <test-method status="PASS" signature="wrongPassword()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="wrongPassword" duration-ms="4076" started-at="2019-09-03T01:27:11 MSK" finished-at="2019-09-03T01:27:15 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="tearDown" is-config="true" duration-ms="780" started-at="2019-09-03T01:27:15 MSK" finished-at="2019-09-03T01:27:16 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.telesens.automationpractice.AuthTests -->
+    </test> <!-- login -->
+  </suite> <!-- selenium -->
+</testng-results>
