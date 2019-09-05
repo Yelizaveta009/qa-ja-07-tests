@@ -19,9 +19,6 @@ public class AuthTests {
     private String password;
     private String wrongLogin;
     private String wrongPassword;
-    private String chromeWebDriver;
-    private String seleniumChromeDriver;
-
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
@@ -36,10 +33,8 @@ public class AuthTests {
         password = prop.getProperty( "password" );
         wrongLogin = prop.getProperty( "wrongLogin" );
         wrongPassword = prop.getProperty( "wrongPassword" );
-        chromeWebDriver = prop.getProperty( "chromeWebDriver" );
-        seleniumChromeDriver= prop.getProperty( "seleniumChromeDriver" );
 
-        System.setProperty(chromeWebDriver, seleniumChromeDriver);
+        System.setProperty("webdriver.chrome.driver", "d:/selenium/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
    }
@@ -51,11 +46,11 @@ public class AuthTests {
         WebElement email = driver.findElement(By.id("email"));
         email.click();
         email.clear();
-        email.sendKeys( login );
+        email.sendKeys(login);
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( password );
+        passwd.sendKeys(password);
         driver.findElement(By.id("SubmitLogin")).click();
         driver.findElement(By.linkText("Sign out")).click();
     }
@@ -67,11 +62,11 @@ public class AuthTests {
         WebElement email = driver.findElement(By.id("email"));
         email.click();
         email.clear();
-        email.sendKeys( wrongLogin );
+        email.sendKeys(wrongLogin);
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( wrongPassword );
+        passwd.sendKeys(wrongPassword);
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement errorMsg = driver.findElement(By.xpath("//div[contains(@class, 'alert alert-danger')]/ol/li"));
         String actualError = errorMsg.getText();
@@ -90,7 +85,7 @@ public class AuthTests {
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( password );
+        passwd.sendKeys(password);
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement errorMsg = driver.findElement(By.xpath("//div[contains(@class, 'alert alert-danger')]/ol/li"));
         String actualError = errorMsg.getText();
@@ -104,11 +99,11 @@ public class AuthTests {
         WebElement email = driver.findElement(By.id("email"));
         email.click();
         email.clear();
-        email.sendKeys( login );
+        email.sendKeys(login);
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( wrongPassword );
+        passwd.sendKeys(wrongPassword);
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement errorMsg = driver.findElement(By.xpath("//div[contains(@class, 'alert alert-danger')]/ol/li"));
         String actualError = errorMsg.getText();
@@ -122,11 +117,11 @@ public class AuthTests {
         WebElement email = driver.findElement(By.id("email"));
         email.click();
         email.clear();
-        email.sendKeys( login );
+        email.sendKeys(login);
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( "" );
+        passwd.sendKeys("");
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement errorMsg = driver.findElement(By.xpath("//div[contains(@class, 'alert alert-danger')]/ol/li"));
         String actualError = errorMsg.getText();
@@ -140,11 +135,11 @@ public class AuthTests {
         WebElement email = driver.findElement(By.id("email"));
         email.click();
         email.clear();
-        email.sendKeys( "" );
+        email.sendKeys("");
         WebElement passwd = driver.findElement(By.id("passwd"));
         passwd.click();
         passwd.clear();
-        passwd.sendKeys( password );
+        passwd.sendKeys(password);
         driver.findElement(By.id("SubmitLogin")).click();
         WebElement errorMsg = driver.findElement(By.xpath("//div[contains(@class, 'alert alert-danger')]/ol/li"));
         String actualError = errorMsg.getText();

@@ -3,8 +3,9 @@
 
 <suite name="selenium">
     <test name="login">
-        <classes>
-            <class name="com.telesens.automationpractice.AuthTests" />
-        </classes>
-    </test>
+    <classes>
+        <class name="com.telesens.automationpractice.AuthTests" />
+        <class name="com.telesens.automationpractice.CategoryWomen" />
+    </classes>
+</test>
 </suite>
