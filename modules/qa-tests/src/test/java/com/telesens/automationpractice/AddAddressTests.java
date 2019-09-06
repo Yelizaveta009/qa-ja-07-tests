@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.fail;
 
-public class AddAddress {
+public class AddAddressTests {
     private static final String DEFAULT_PATH = "src/main/resources/automationpractice.properties";
     private WebDriver driver;
     private String baseUrl;
@@ -48,7 +48,7 @@ public class AddAddress {
     private String setPhone;
     private String setAlias;
 
-    public AddAddress() throws IOException {
+    public AddAddressTests() throws IOException {
     }
 
     @BeforeClass(alwaysRun = true)

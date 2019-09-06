@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertTrue;
 
-public class CategoryWomen {
+public class CategoryWomenTests {
     private static final String DEFAULT_PATH = "src/main/resources/automationpractice.properties";
     private WebDriver driver;
     private String baseUrl;
