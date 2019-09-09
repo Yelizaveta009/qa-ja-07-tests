@@ -19,10 +19,12 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import java.io.*;
 import java.util.List;
@@ -50,9 +52,9 @@ public class AddAddressTests {
 
     public AddAddressTests() throws IOException {
     }
-
-    @BeforeClass(alwaysRun = true)
-    public void setUp() throws Exception {
+    @Parameters("browser")
+    @BeforeClass
+    public void setUp(String browser) throws Exception {
         String automationPracticePath = System.getProperty( "properties" );
         if (automationPracticePath == null)
             automationPracticePath = DEFAULT_PATH;
@@ -64,46 +66,67 @@ public class AddAddressTests {
         password = prop.getProperty( "password" );
         file = new File(prop.getProperty("address.exc"));
 
-        System.setProperty( "webdriver.chrome.driver", "d:/selenium/chromedriver.exe" );
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait( 30, TimeUnit.SECONDS );
 
         try {
             XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream(file));
             XSSFSheet sheet = workbook.getSheet( "Лист1" );
 
-                setAddress = sheet.getRow(0).getCell(0).getStringCellValue();
-                setCity = sheet.getRow(0).getCell( 1 ).getStringCellValue();
-                setIdStage =  sheet.getRow(0).getCell( 2).getStringCellValue();
-                setPostcode = sheet.getRow(0).getCell( 3).getStringCellValue();
-                setPhone =  sheet.getRow(0).getCell( 4 ).getStringCellValue();
-                setAlias =  sheet.getRow(0).getCell( 5 ).getStringCellValue();
+            setAddress = sheet.getRow(0).getCell(0).getStringCellValue();
+            setCity = sheet.getRow(0).getCell( 1 ).getStringCellValue();
+            setIdStage =  sheet.getRow(0).getCell( 2).getStringCellValue();
+            setPostcode = sheet.getRow(0).getCell( 3).getStringCellValue();
+            setPhone =  sheet.getRow(0).getCell( 4 ).getStringCellValue();
+            setAlias =  sheet.getRow(0).getCell( 5 ).getStringCellValue();
 
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        if (browser.equals("chrome")) {
+            System.setProperty("webdriver.chrome.driver", "d:/selenium/chromedriver.exe");
+
+            driver = new ChromeDriver();
+        }
+        else if (browser.equals("firefox")) {
+            System.setProperty("webdriver.gecko.driver", "d:/selenium/geckodriver.exe");
+
+            driver = new FirefoxDriver();
+        }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
 
         @Test
     public void testAuthSuccess() throws Exception {
-        driver.get(baseUrl);
-        driver.findElement( By.linkText("Sign in")).click();
+        driver.get( baseUrl );
+        driver.findElement( By.linkText( "Sign in" ) ).click();
 
-        WebElement email = driver.findElement( By.id("email") );
+        WebElement email = driver.findElement( By.id( "email" ) );
         email.click();
         email.clear();
-        email.sendKeys(login);
+        email.sendKeys( login );
 
-        WebElement passwd = driver.findElement( By.id("passwd") );
+        WebElement passwd = driver.findElement( By.id( "passwd" ) );
         passwd.click();
         passwd.clear();
-        passwd.sendKeys(password);
-        driver.findElement( By.id("SubmitLogin")).click();
+        passwd.sendKeys( password );
+        driver.findElement( By.id( "SubmitLogin" ) ).click();
 
-        WebElement myAddress = driver.findElement(By.className("icon-building"));
+        WebElement myAddress = driver.findElement( By.className( "icon-building" ) );
         myAddress.click();
-        List<WebElement> elements = driver.findElements( By.className("page-subheading"));
-        driver.findElement(By.xpath("(.//*[normalize-space(text())and normalize-space(.)='Delete'])[1]/following::span[1]")).click();
+        List<WebElement> elements = driver.findElements( By.className( "page-subheading" ) );
+
+            int i = driver.findElements( By.xpath("//*[@id=\"center_column\"]/div[1]/div/div[2]/ul" )).size();
+            if (i != 0){
+                driver.findElement(By.xpath("//*[@id=\"center_column\"]/div[1]/div/div[2]/ul/li[9]/a[2]/span")).click();
+                assertTrue(closeAlertAndGetItsText().matches( "^Are you sure[\\s\\S]$" ) );
+                driver.findElement( By.linkText( "Add a new address" ) ).click();
+
+            } else {
+                driver.findElement( By.linkText( "Add a new address" ) ).click();
+          }
+
 
         WebElement address = driver.findElement(By.id("address1"));
         address.click();
@@ -144,28 +167,16 @@ public class AddAddressTests {
                 System.out.println("Был добавлен новый адрес");
             }
             acceptNextAlert = true;
+//
+//            driver.findElement(By.xpath("//*[@id=\"center_column\"]/div[1]/div/div[2]/ul/li[9]/a[2]/span")).click();
+//            assertTrue(closeAlertAndGetItsText().matches("^Are you sure[\\s\\S]$"));
 
-            driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Update'])[2]/following::span[1]")).click();
-            assertTrue(closeAlertAndGetItsText().matches("^Are you sure[\\s\\S]$"));
-
-            List<WebElement> extendedElements = driver.findElements( By.className("page-subheading"));
-
-            try {
-                Assert.assertEquals(newElements,extendedElements);
-            } catch (AssertionError e) {
-                System.out.println("Новый адрес успешно удален");
-            }
-            acceptNextAlert = true;
 
     }
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
         driver.quit();
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            fail(verificationErrorString);
         }
-    }
 
     private boolean isElementPresent(By by) {
         try {

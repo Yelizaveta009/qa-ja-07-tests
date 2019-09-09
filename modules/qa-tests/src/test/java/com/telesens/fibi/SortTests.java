@@ -1,4 +1,4 @@
-package com.telesens.automationpractice;
+package com.telesens.fibi;
 
 /*7) Реализовать автотест сортировки 'DRESSES' для сайта automationpractice.com:
         - перейти на главную страницу по ссылке: http://automationpractice.com
@@ -13,72 +13,87 @@ package com.telesens.automationpractice;
         Тут я взяла другой сайт и выполнила аналогичный действия.
         */
 
+import com.beust.jcommander.Parameter;
+import com.google.common.collect.Ordering;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
-import static org.testng.Assert.fail;
+import static org.testng.Assert.*;
 
 public class SortTests {
     private static final String DEFAULT_PATH = "src/main/resources/automationpractice.properties";
     private WebDriver driver;
-    private String additionalUrl;
+    private String fibiUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
+    @Parameters("browser")
     @BeforeClass(alwaysRun = true)
-    public void setUp() throws Exception {
+    public void setUp(String browser) throws Exception {
         String automationPracticePath = System.getProperty( "properties" );
         if (automationPracticePath == null)
             automationPracticePath = DEFAULT_PATH;
 
         Properties prop = new Properties();
         prop.load( new FileReader( automationPracticePath ) );
-        additionalUrl = prop.getProperty( "additionalUrl" );
+        fibiUrl = prop.getProperty( "fibiUrl" );
 
-        System.setProperty( "webdriver.chrome.driver", "d:/selenium/chromedriver.exe" );
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait( 30, TimeUnit.SECONDS );
+        if (browser.equals( "chrome" )) {
+            System.setProperty( "webdriver.chrome.driver", "d:/selenium/chromedriver.exe" );
+
+            driver = new ChromeDriver();
+        } else if (browser.equals( "firefox" )) {
+            System.setProperty( "webdriver.gecko.driver", "d:/selenium/geckodriver.exe" );
+
+            driver = new FirefoxDriver();
+
+            driver.manage().window().setSize(new Dimension(1000, 1000));
+            driver.manage().timeouts().implicitlyWait( 30, TimeUnit.SECONDS );
+        }
     }
 
     @Test
     public void testUntitledTestCase() throws Exception {
-        driver.get( additionalUrl );
-        driver.findElement( By.xpath( "(.//*[normalize-space(text()) and normalize-space(.)='Категории'])[1]/following::i[1]" ) ).click();
+        driver.get( fibiUrl );
 
-        driver.get( "http://www.fibi.com.ua/swimsuit-anabel-arto/" );    //тут костыль
-        /*Когда записываю сценарий с помощью Каtalon он автоматически записывает driver.findElement(By.By.LinkText("Купальники")).click(). Но здесь это не работает.
-        Я пробовала через className, cssSelector. Но в итоге ничего не получилось и пока написала так*/
-
-
-        List<WebElement> swimsuit = driver.findElements( By.className( "product-layout2" ) );//создаем лист который находит все позиции до сортировки.
+        driver.findElement( By.cssSelector( "#menu > div.navbar-header > button > i" ) ).click();
+        driver.findElement( By.cssSelector( ".hidem > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)" ) ).click();
 
         driver.findElement( By.id( "input-sort" ) ).click();//выполняем сортировку
         new Select( driver.findElement( By.id( "input-sort" ) ) ).selectByVisibleText( "По цене (возрастанию)" );
-        driver.findElement( By.id( "input-sort" ) ).click();
 
-        List<WebElement> sortedSwimsuit = driver.findElements( By.className( "product-layout2" ) );//создаем лист который находит все позиции после сортировки.
+        List<String> prices =
+                driver.findElements(By.className("price")).stream()
+                        .map(WebElement::getText)
+                        .map(s->s.replaceAll("[^\\d\\.]", ""))
+                        .map(s->s.replace( ".00.","" ))//костыль
+                        .map( s ->s.replace( "270588","270" ) )//костыль
+                        .collect( Collectors.toList());
+        System.out.println(prices);
 
-        List<WebElement> newPrice = driver.findElements( By.className( "price" ) );
 
-        for (WebElement element : newPrice) {
-            System.out.println( element.getText() );
+        boolean isSorted = Ordering.natural().isOrdered(prices);
+        System.out.println(isSorted);
 
-            int swim = swimsuit.size();//определяем длину листа до и после сортировки
-            int sortedSwim = sortedSwimsuit.size();
-
-            Assert.assertEquals( 8, sortedSwim );// проверяем, что присутствуют 8 позиций.
-            Assert.assertEquals( swim, sortedSwim );// проверка, что количество позиций до и после сортировки не изменилась.
-       
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 

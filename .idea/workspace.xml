@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877df903-b1c3-457a-94ac-feb6c477eaf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/SortTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/address.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomen.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/SortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +31,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="64" column="72" selection-start-line="63" selection-end-line="64" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2355#2356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1456">
+              <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -34,20 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/SortTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+            <state relative-caret-position="328">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +84,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="157" selection-end-column="35" />
+            <state relative-caret-position="-278">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,6 +119,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;class name=&quot;com.telesens.rozetka.RozetkaTests&quot;/&gt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,17 +149,23 @@
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/BlankPassword.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/BlankUsername.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/firefox/MainTest.java" />
-        <option value="$PROJECT_DIR$/modules/qa-tests/testng.xml" />
-        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAdres.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAdress.java" />
         <option value="$PROJECT_DIR$/../git/src/main/java/homework/lesson10and11and12/Creator.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomen.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/XSSFWorkbook.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddress.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/Rozetka.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/SortTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/com/telesens/rozetka/RozetkaTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/testng.xml" />
       </list>
     </option>
   </component>
@@ -143,8 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,23 +233,6 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qa-ja-07-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-ja-07-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qa-ja-07-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qa-ja-07-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,7 +252,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="telesens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa-ja-07-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-ja-07-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="telesens" type="462c0819:PsiDirectoryNode" />
               <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa-ja-07-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-ja-07-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="telesens" type="462c0819:PsiDirectoryNode" />
+              <item name="fibi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qa-ja-07-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-ja-07-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="telesens" type="462c0819:PsiDirectoryNode" />
+              <item name="rozetka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,17 +321,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SortTests.testUntitledTestCase">
-    <configuration name="AddAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SortTests">
+    <configuration name="Maven-dbg" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddAddressTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telesens.automationpractice.*" />
+          <option name="PATTERN" value="com.telesens.fibi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AddAddress" />
+      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AddAddressTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -266,16 +362,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddAddress.testAuthSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telesens.automationpractice.*" />
+          <option name="PATTERN" value="com.telesens.fibi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AddAddress" />
+      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AuthTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTests.testAuthSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telesens.fibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AuthTests" />
       <option name="METHOD_NAME" value="testAuthSuccess" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -284,17 +397,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryWomen" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTests.testWrongPasswordAndLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qa-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telesens.automationpractice.*" />
+          <option name="PATTERN" value="com.telesens.fibi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.CategoryWomen" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.AuthTests" />
+      <option name="METHOD_NAME" value="testWrongPasswordAndLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -305,12 +419,12 @@
       <module name="qa-tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telesens.automationpractice.*" />
+          <option name="PATTERN" value="com.telesens.fibi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.SortTests" />
+      <option name="MAIN_CLASS_NAME" value="com.telesens.fibi.SortTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -318,31 +432,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTests.testUntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qa-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telesens.automationpractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telesens.automationpractice" />
-      <option name="MAIN_CLASS_NAME" value="com.telesens.automationpractice.SortTests" />
-      <option name="METHOD_NAME" value="testUntitledTestCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Maven.Maven-dbg" />
+      <item itemvalue="TestNG.AddAddressTests" />
+      <item itemvalue="TestNG.SortTests" />
+      <item itemvalue="TestNG.AuthTests" />
+      <item itemvalue="TestNG.AuthTests.testWrongPasswordAndLogin" />
+      <item itemvalue="TestNG.AuthTests.testAuthSuccess" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SortTests.testUntitledTestCase" />
         <item itemvalue="TestNG.SortTests" />
-        <item itemvalue="TestNG.AddAddress" />
-        <item itemvalue="TestNG.AddAddress.testAuthSuccess" />
-        <item itemvalue="TestNG.CategoryWomen" />
+        <item itemvalue="TestNG.AuthTests" />
+        <item itemvalue="TestNG.AuthTests.testWrongPasswordAndLogin" />
+        <item itemvalue="TestNG.AuthTests.testAuthSuccess" />
+        <item itemvalue="TestNG.AddAddressTests" />
       </list>
     </recent_temporary>
   </component>
@@ -360,42 +464,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 11h 59m 13s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests - 2019.09.08 at 07h 52m 52s.xml">
+      <configuration name="AuthTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 01m 00s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests - 2019.09.08 at 07h 53m 54s.xml">
+      <configuration name="AuthTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 08m 55s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests_testWrongPasswordAndLogin - 2019.09.08 at 07h 55m 54s.xml">
+      <configuration name="AuthTests.testWrongPasswordAndLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 09m 29s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests_testWrongPasswordAndLogin - 2019.09.08 at 07h 57m 22s.xml">
+      <configuration name="AuthTests.testWrongPasswordAndLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 10m 02s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests_testWrongPasswordAndLogin - 2019.09.08 at 07h 58m 22s.xml">
+      <configuration name="AuthTests.testWrongPasswordAndLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 10m 29s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests - 2019.09.08 at 07h 59m 54s.xml">
+      <configuration name="AuthTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 10m 55s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests - 2019.09.08 at 09h 35m 15s.xml">
+      <configuration name="AuthTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 11m 49s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="AuthTests - 2019.09.08 at 09h 59m 51s.xml">
+      <configuration name="AuthTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 53m 41s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="SortTests - 2019.09.08 at 22h 57m 49s.xml">
+      <configuration name="SortTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortTests_testUntitledTestCase - 2019.09.06 at 12h 54m 48s.xml">
-      <configuration name="SortTests.testUntitledTestCase" configurationId="TestNG" />
+    <history-entry file="SortTests - 2019.09.09 at 13h 54m 59s.xml">
+      <configuration name="SortTests" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,11 +516,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.033333335" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -417,7 +529,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13006397" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.084754795" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -488,13 +600,6 @@
     <entry file="file://$PROJECT_DIR$/modules/qa-framework/src/main/java/com/telesens/tmp/Util.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/main/java/User.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/main/java/Main.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/WrongUsername.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/WrongPassword.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/WrongUsernamePassword.java" />
@@ -502,42 +607,8 @@
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/BlankUsername.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/UserData.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/firefox/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomen.java" />
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/XSSFWorkbook.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#2575#2576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../git/src/main/resources/java-part.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -562,41 +633,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddress.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#2575#2576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="1256" selection-start-line="1256" selection-end-line="1256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/Rozetka.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/main/resources/selenium.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddress.java" />
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java">
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice-auth-data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/main/resources/automationpractice.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="64" column="72" selection-start-line="63" selection-end-line="64" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/CategoryWomenTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AddAddressTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="157" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/SortTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1456">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
         </state>
       </provider>
     </entry>

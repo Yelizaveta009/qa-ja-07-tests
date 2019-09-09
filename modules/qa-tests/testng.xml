@@ -2,11 +2,29 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="selenium">
-    <test name="login">
-    <classes>
-        <class name="com.telesens.automationpractice.AddAddressTests" />
-        <class name="com.telesens.automationpractice.AuthTests" />
-        <class name="com.telesens.automationpractice.CategoryWomenTests" />
-    </classes>
-</test>
+<!--    <test name="login">-->
+<!--        <classes>-->
+<!--            <class name="com.telesens.automationpractice.AddAddressTests" />-->
+<!--            <class name="com.telesens.automationpractice.AuthTests" />-->
+<!--            <class name="com.telesens.automationpractice.CategoryWomenTests" />-->
+<!--            <class name="com.telesens.fibi.SortTests" />-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.telesens.rozetka.RozetkaTests"/>
+            <class name="com.telesens.fibi.SortTests"/>
+            <class name="com.telesens.automationpractice.AddAddressTests"/>
+            <class name="com.telesens.automationpractice.AuthTests"/>
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.telesens.fibi.SortTests"/>
+            <class name="com.telesens.automationpractice.AddAddressTests"/>
+            <class name="com.telesens.automationpractice.AuthTests"/>
+        </classes>
+    </test>
 </suite>
