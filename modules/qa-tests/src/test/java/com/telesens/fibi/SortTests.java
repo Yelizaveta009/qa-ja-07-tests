@@ -87,9 +87,6 @@ public class SortTests {
         System.out.println(prices);
 
 
-        boolean isSorted = Ordering.natural().isOrdered(prices);
-        System.out.println(isSorted);
-
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {

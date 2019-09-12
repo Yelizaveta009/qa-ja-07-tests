@@ -6,8 +6,8 @@
     <classes>
       <class name="com.telesens.rozetka.RozetkaTests">
         <methods>
+          <include name="testFilterSecondVersion"/>
           <include name="setUp"/>
-          <include name="testSort"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.telesens.rozetka.RozetkaTests -->
