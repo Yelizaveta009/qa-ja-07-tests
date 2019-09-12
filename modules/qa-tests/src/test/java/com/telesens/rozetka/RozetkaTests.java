@@ -105,11 +105,8 @@ public class RozetkaTests {
         Integer first = pricesFilterActual.get( 0 ); //берем 1 значение из списка то есть минимальную цену
         Integer last = pricesFilterActual.get( pricesFilterActual.size() - 1 );//берем последнее значение из списка то есть максимальную цену
 
-        if (first >= minPrice && last <= maxPrice) {
-            System.out.println( "Товары были отфильтрованы стоимостью от " + minPrice + " грн. до " + maxPrice + " грн. " );
-        } else {
-            System.out.println( "Товары не были отфильтрованы." );
-        }
+        Assert.assertTrue( first >= minPrice ); //Проверка
+        Assert.assertTrue(last <= maxPrice);
     }
 
     @Test

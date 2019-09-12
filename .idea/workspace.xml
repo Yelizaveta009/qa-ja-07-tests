@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
+            <state relative-caret-position="342">
+              <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,6 +427,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49263158" visible="true" weight="0.18603411" />
       <window_info id="Structure" order="1" sideWeight="0.50736845" side_tool="true" visible="true" weight="0.18603411" />
@@ -650,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
+        <state relative-caret-position="342">
+          <caret line="108" column="42" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
