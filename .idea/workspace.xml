@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877df903-b1c3-457a-94ac-feb6c477eaf6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/fibi/SortTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AddAddressTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AddAddressTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AuthTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AuthTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.fibi.SortTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.fibi.SortTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.rozetka.RozetkaTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.rozetka.RozetkaTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/ChromeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/ChromeTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/ChromeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/ChromeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/FirefoxTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/FirefoxTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/FirefoxTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/FirefoxTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/selenium/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/fibi/SortTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/fibi/SortTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/rozetka/RozetkaTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/rozetka/RozetkaTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1705">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="189">
+              <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,7 +110,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="32" />
     <option name="width" value="974" />
@@ -454,11 +426,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49436393" visible="true" weight="0.108208954" />
-      <window_info id="Structure" order="1" sideWeight="0.5056361" side_tool="true" visible="true" weight="0.108208954" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49263158" visible="true" weight="0.18603411" />
+      <window_info id="Structure" order="1" sideWeight="0.50736845" side_tool="true" visible="true" weight="0.18603411" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -466,7 +437,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4722222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +450,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.065565035" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.065565035" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -679,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/rozetka/RozetkaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1705">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="189">
+          <caret line="163" column="70" selection-start-line="163" selection-start-column="70" selection-end-line="163" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

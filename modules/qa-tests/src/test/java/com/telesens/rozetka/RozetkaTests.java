@@ -161,11 +161,10 @@ public class RozetkaTests {
             Integer first = pricesFilterActual.get( 0 );
             Integer last = pricesFilterActual.get( pricesFilterActual.size() - 1 );
 
-            if (first >= priceMinExtended && last <= priceMaxExtended) {
-            System.out.println( "Товары были отфильтрованы стоимостью от " + priceMinExtended + " грн. до " + priceMaxExtended + " грн. " );
-        } else {
-            System.out.println( "Товары не были отфильтрованы." );
-        }
+            Assert.assertTrue( first >= priceMinExtended ); //Проверка
+            Assert.assertTrue(last <= priceMaxExtended);
+
+        System.out.println("Товары были отфильтрованы стоимостью от " + priceMinExtended + " грн. до " + priceMaxExtended + " грн. ");
   }
         @AfterClass
         public void tearDown () {
