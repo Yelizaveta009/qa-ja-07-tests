@@ -2,12 +2,14 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="selenium" duration-ms="46165" started-at="2019-09-12T11:00:07 MSK" finished-at="2019-09-12T11:00:53 MSK">
+  <suite name="selenium" duration-ms="34651" started-at="2019-09-16T01:07:38 MSK" finished-at="2019-09-16T01:08:13 MSK">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="46101" started-at="2019-09-12T11:00:07 MSK" finished-at="2019-09-12T11:00:53 MSK">
+    <test name="FirefoxTest" duration-ms="20" started-at="2019-09-16T01:07:38 MSK" finished-at="2019-09-16T01:07:38 MSK">
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="34570" started-at="2019-09-16T01:07:38 MSK" finished-at="2019-09-16T01:08:13 MSK">
       <class name="com.telesens.rozetka.RozetkaTests">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.telesens.rozetka.RozetkaTests@548e7350]" name="setUp" is-config="true" duration-ms="4407" started-at="2019-09-12T11:00:07 MSK" finished-at="2019-09-12T11:00:12 MSK">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.telesens.rozetka.RozetkaTests@cb644e]" name="setUp" is-config="true" duration-ms="6353" started-at="2019-09-16T01:07:38 MSK" finished-at="2019-09-16T01:07:45 MSK">
           <params>
             <param index="0">
               <value>
@@ -18,17 +20,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testFilterSecondVersion()[pri:0, instance:com.telesens.rozetka.RozetkaTests@548e7350]" name="testFilterSecondVersion" duration-ms="40721" started-at="2019-09-12T11:00:12 MSK" finished-at="2019-09-12T11:00:52 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.telesens.rozetka.RozetkaTests@cb644e]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-16T01:07:45 MSK" finished-at="2019-09-16T01:07:45 MSK">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFilterSecondVersion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telesens.rozetka.RozetkaTests@548e7350]" name="tearDown" is-config="true" duration-ms="920" started-at="2019-09-12T11:00:52 MSK" finished-at="2019-09-12T11:00:53 MSK">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.telesens.rozetka.RozetkaTests@cb644e]" name="testLogin" duration-ms="26670" started-at="2019-09-16T01:07:45 MSK" data-provider="loginProvider" finished-at="2019-09-16T01:08:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lizapatology@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1Q2W3E4R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telesens.rozetka.RozetkaTests@cb644e]" name="tearDown" is-config="true" duration-ms="1501" started-at="2019-09-16T01:08:11 MSK" finished-at="2019-09-16T01:08:13 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.telesens.rozetka.RozetkaTests -->
-    </test> <!-- FirefoxTest -->
-    <test name="ChromeTest" duration-ms="0" started-at="2019-09-12T11:00:53 MSK" finished-at="2019-09-12T11:00:53 MSK">
     </test> <!-- ChromeTest -->
   </suite> <!-- selenium -->
 </testng-results>

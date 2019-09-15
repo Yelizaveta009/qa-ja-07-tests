@@ -1,3 +1,9 @@
-com\telesens\fibi\SortTests.class
-com\telesens\automationpractice\AuthTests.class
+com\telesens\rozetka\page\MainPage.class
+com\telesens\rozetka\page\MonitorsPage.class
+com\telesens\automationpractice\page\HomePage.class
+com\telesens\automationpractice\page\CreateAddressPage.class
+com\telesens\automationpractice\page\MyAddressesPage.class
 com\telesens\rozetka\RozetkaTests.class
+com\telesens\automationpractice\page\AuthPage.class
+com\telesens\automationpractice\AutomationpracticeTests.class
+com\telesens\automationpractice\page\MyAccountPage.class

@@ -18,6 +18,11 @@
         <artifactId>selenium-java</artifactId>
         <version>4.0.0-alpha-2</version>
     </dependency>
+        <dependency>
+            <groupId>com.telesens.academy</groupId>
+            <artifactId>qa-framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
@@ -28,6 +33,16 @@
             <artifactId>testng</artifactId>
             <version>7.0.0</version>
         </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.12.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.12.1</version>
+    </dependency>
 </dependencies>
 
     <build>
@@ -39,8 +54,12 @@
                 <configuration>
                     <systemProperties>
                         <property>
-                            <name>properties</name>
-                            <value>src/main/resources/automationpractice.properties</value>
+                        <name>automationpractice</name>
+                        <value>src/main/resources/automationpractice.properties</value>
+                    </property>
+                        <property>
+                            <name>rozetka</name>
+                            <value>src/main/resources/rozetka.properties</value>
                         </property>
                     </systemProperties>
                     <suiteXmlFiles>
@@ -52,8 +71,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

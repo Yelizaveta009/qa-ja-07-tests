@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>modules/qa-tests</module>
+        <module>modules/qa-framework</module>
     </modules>
 
 

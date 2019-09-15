@@ -1,9 +1,56 @@
-[0902/192105.269:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
-[0902/192105.269:ERROR:exception_snapshot_win.cc(98)] thread ID 7620 not found in process
-[0911/144518.555:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
-[0911/144518.555:ERROR:process_info.cc(556)] ReadMemoryInfo failed
-[0911/144518.555:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
-[0911/144518.555:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
-[0911/234059.886:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
-[0911/234059.886:ERROR:process_info.cc(556)] ReadMemoryInfo failed
-[0911/234059.886:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[INFO ] 2019-09-13 00:01:58.668 [main] RozetkaTests:176 - Filtered prices: [22758, 22919, 23402, 23559, 23859, 24299, 24555, 24697, 25865, 25912, 25999, 26240, 26641, 26890, 26999, 26999, 27083, 27666, 27999, 29999, 29999, 30529, 30697, 31599, 31849, 34528, 35999, 35999, 35999, 38799, 42999, 64225]
+[INFO ] 2019-09-13 00:01:58.728 [main] RozetkaTests:193 - Items have been filtered from 22435 UAH. to 64516 UAH. 
+[INFO ] 2019-09-13 05:39:17.172 [main] RozetkaTests:176 - Filtered prices: [27457, 27499, 27666, 27679, 27960, 27999, 28130, 28790, 28999, 29395, 29687, 29879, 29999, 29999, 30529, 30697, 31363, 31599, 31849, 32555, 32612, 32999, 33000, 33528, 34482, 34528, 35999, 35999, 35999, 36432, 38799, 41665]
+[INFO ] 2019-09-13 05:39:17.241 [main] RozetkaTests:193 - Items have been filtered from 27386 UAH. to 42238 UAH. 
+[INFO ] 2019-09-14 18:41:20.666 [main] RozetkaTests:147 - Filtered prices: [138311, 147420, 147420, 148512, 148512]
+[INFO ] 2019-09-14 18:41:20.750 [main] RozetkaTests:164 - Items have been filtered from 123271 UAH. to 149350 UAH. 
+[0914/184207.953:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/184207.953:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/184207.953:ERROR:exception_snapshot_win.cc(98)] thread ID 7680 not found in process
+[0914/213402.697:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0914/213402.710:ERROR:exception_snapshot_win.cc(98)] thread ID 4572 not found in process
+[0914/213732.183:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Liza\AppData\Local\Temp\scoped_dir9560_1592963799\Crashpad\settings.dat: Не удается найти указанный файл. (0x2)
+[0915/162149.127:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0915/162149.148:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0915/162149.148:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0915/162149.148:ERROR:exception_snapshot_win.cc(98)] thread ID 4732 not found in process
+[INFO ] 2019-09-15 17:58:46.231 [main] RozetkaTests:60 - Sorted prices: [325, 325, 325, 450, 550, 750, 885, 950, 1699, 1777, 1777, 1822, 1828, 1859, 1899, 1900, 1910, 1999, 2037, 2059, 2089, 2090, 2094, 2095, 2131, 2229, 2235, 2235, 2239, 2249, 2259, 2269]
+[INFO ] 2019-09-15 18:38:05.922 [main] RozetkaTests:79 - Filtered prices: [147420, 147420, 148512, 148512]
+[INFO ] 2019-09-15 18:38:06.208 [main] RozetkaTests:96 - Items have been filtered from 146866 UAH. to 150592 UAH. 
+[INFO ] 2019-09-15 18:51:06.589 [main] RozetkaTests:106 - Filtered prices: [7919, 7999, 7999, 8999, 8999, 8999, 8999, 8999, 9499, 9939, 9941, 9999, 9999, 10877, 10999, 12299, 12395, 12499, 12799, 13999, 14999, 15299, 15325, 15999, 16257, 16428, 17199, 17999, 20999, 25999, 26999, 35999]
+[INFO ] 2019-09-15 18:51:06.681 [main] RozetkaTests:122 - Items have been filtered from 7776 UAH. to 155559 UAH. 
+[0915/201611.420:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
+[0915/201611.634:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0915/201611.635:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[0915/224723.036:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0915/224723.056:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0915/224723.060:ERROR:exception_snapshot_win.cc(98)] thread ID 10732 not found in process
+[INFO ] 2019-09-16 00:53:38.686 [main] RozetkaTests:106 - Filtered prices: [2309, 2485, 2699, 2725, 2999, 2999, 3049, 3099, 3199, 3205, 3222, 3249, 3249, 3299, 3399, 3777, 4099, 4299, 4439, 4499, 4847, 4999, 5099, 5199, 5499, 5555, 5599, 5699, 8999, 8999, 9999, 12499]
+[INFO ] 2019-09-16 00:53:38.794 [main] RozetkaTests:122 - Items have been filtered from 325 UAH. to 23921 UAH. 
+[INFO ] 2019-09-16 00:54:15.383 [main] RozetkaTests:72 - Sorted prices: [325, 325, 450, 550, 750, 885, 950, 1699, 1777, 1777, 1822, 1828, 1859, 1899, 1900, 1910, 1999, 2037, 2059, 2089, 2090, 2094, 2095, 2131, 2229, 2235, 2235, 2239, 2249, 2259, 2269, 2285]
+[INFO ] 2019-09-16 00:54:16.531 [main] RozetkaTests:78 - Sort check succeeded 
+[INFO ] 2019-09-16 00:56:10.601 [main] RozetkaTests:106 - Filtered prices: [41665, 42818, 42999, 47188, 62399, 64225, 69874, 77070, 80183, 110343, 122186]
+[INFO ] 2019-09-16 00:56:10.716 [main] RozetkaTests:122 - Items have been filtered from 41307 UAH. to 130722 UAH. 
+[INFO ] 2019-09-16 00:56:47.833 [main] RozetkaTests:72 - Sorted prices: [325, 325, 450, 550, 750, 885, 950, 1699, 1777, 1777, 1822, 1828, 1859, 1899, 1900, 1910, 1999, 2037, 2059, 2089, 2090, 2094, 2095, 2131, 2229, 2235, 2235, 2239, 2249, 2259, 2269, 2285]
+[INFO ] 2019-09-16 00:56:49.192 [main] RozetkaTests:78 - Sort check succeeded 
+[INFO ] 2019-09-16 00:58:28.910 [main] RozetkaTests:106 - Filtered prices: [148512, 148512]
+[INFO ] 2019-09-16 00:58:29.012 [main] RozetkaTests:122 - Items have been filtered from 148108 UAH. to 153076 UAH. 
+[INFO ] 2019-09-16 01:01:40.739 [main] RozetkaTests:106 - Filtered prices: [77070, 80183, 110343, 122186]
+[INFO ] 2019-09-16 01:01:40.864 [main] RozetkaTests:122 - Items have been filtered from 76079 UAH. to 128238 UAH. 
+[INFO ] 2019-09-16 01:03:09.244 [main] RozetkaTests:72 - Sorted prices: [325, 325, 450, 550, 750, 885, 950, 1699, 1777, 1777, 1822, 1828, 1859, 1899, 1900, 1910, 1999, 2037, 2059, 2089, 2090, 2094, 2095, 2131, 2229, 2235, 2235, 2239, 2249, 2259, 2269, 2285]
+[INFO ] 2019-09-16 01:03:10.392 [main] RozetkaTests:78 - Sort check succeeded 
+[0916/010812.159:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0916/010812.161:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0916/010812.161:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0916/010812.161:ERROR:exception_snapshot_win.cc(98)] thread ID 14592 not found in process

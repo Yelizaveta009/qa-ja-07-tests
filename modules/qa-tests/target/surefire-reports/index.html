@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-selenium">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-selenium" title="com.telesens.rozetka.RozetkaTests" hash-for-method="testFilterSecondVersion">testFilterSecondVersion</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-selenium" title="com.telesens.rozetka.RozetkaTests" hash-for-method="testLogin(lizapatology@gmail.com, 1Q2W3E4R)">testLogin(lizapatology@gmail.com, 1Q2W3E4R)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-selenium -->
@@ -125,9 +125,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testFilterSecondVersion">
-                  </a> <!-- testFilterSecondVersion -->
-                  <span class="method-name">testFilterSecondVersion</span>
+                  <a name="testLogin(lizapatology@gmail.com, 1Q2W3E4R)">
+                  </a> <!-- testLogin(lizapatology@gmail.com, 1Q2W3E4R) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(lizapatology@gmail.com, 1Q2W3E4R)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,12 +145,12 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;selenium&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;FirefoxTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.telesens.rozetka.RozetkaTests&quot;/&gt;
-    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.telesens.rozetka.RozetkaTests&quot;/&gt;
+    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
 &lt;/suite&gt; &lt;!-- selenium --&gt;
             </pre>
@@ -162,10 +163,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">FirefoxTest (1 class)</span>
+                <span class="test-name">FirefoxTest (0 classes)</span>
               </li>
               <li>
-                <span class="test-name">ChromeTest (0 classes)</span>
+                <span class="test-name">ChromeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,14 +194,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testFilterSecondVersion')
+data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'com.telesens.rozetka.RozetkaTests')
-data.setCell(0, 3, 40721);
+data.setCell(0, 3, 26670);
 window.suiteTableData['selenium']= { tableData: data, tableDiv: 'times-div-selenium'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-selenium">
               </div> <!-- times-div-selenium -->
             </div> <!-- times-div -->
@@ -240,13 +241,17 @@ return data;
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6353 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testFilterSecondVersion</span>
-                <span class="method-start">4419 ms</span>
+                <span class="method-name">testLogin(lizapatology@gmail.com, 1Q2W3E4R)</span>
+                <span class="method-start">6383 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45145 ms</span>
+                <span class="method-start">33059 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
