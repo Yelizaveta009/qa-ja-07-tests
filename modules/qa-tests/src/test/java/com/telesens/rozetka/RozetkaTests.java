@@ -1,8 +1,6 @@
 package com.telesens.rozetka;
 
 import com.telesens.framework.test.BaseTest;
-import com.telesens.rozetka.page.MainPage;
-import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.io.FileReader;
@@ -31,6 +29,7 @@ public class RozetkaTests extends BaseTest {
     }
 
     @Test(dataProvider = "loginProvider")
+    @Ignore
     public void testLogin(String login,String password) {
         startFromMain( driver, baseUrl )
                 .clickSignIn()
@@ -38,10 +37,10 @@ public class RozetkaTests extends BaseTest {
                 .inputPassword(password)
                 .pressSubmit()
                 .signOut();
-
     }
 
     @Test
+    @Ignore
     public void testSort() {
         startFromMain(driver, baseUrl)
                 .goToMonitorsPage()
@@ -50,6 +49,7 @@ public class RozetkaTests extends BaseTest {
     }
 
     @Test
+    @Ignore
     public void testFilter() {
         startFromMain(driver, baseUrl)
                 .goToMonitorsPage()
@@ -57,6 +57,7 @@ public class RozetkaTests extends BaseTest {
                 .filteringCheck();
 
   }
+    
 
   @DataProvider(name = "loginProvider")
         public Object[][] loginProvider() {

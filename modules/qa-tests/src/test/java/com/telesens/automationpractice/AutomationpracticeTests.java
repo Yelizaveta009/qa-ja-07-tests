@@ -92,7 +92,7 @@ public class AutomationpracticeTests extends BaseTest {
 
     @Test
     public void setAddress() throws Exception {
-        BasePage basePage = startFromHome(driver, baseUrl)
+        startFromHome(driver, baseUrl)
                 .clickSignIn()
                 .enterEmail(login)
                 .enterPassword(password)
